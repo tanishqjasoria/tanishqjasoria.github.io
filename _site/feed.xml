@@ -3,21 +3,18 @@
   <channel>
     <title>Tanishq Jasoria</title>
     <description>Manners Maketh Man</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://tanishqjasoria.github.io</link>
+    <atom:link href="https://tanishqjasoria.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Facebook: Production Engineer Internship Process</title>
         
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-</description>
+          <description>Recently, I had interviews with Facebook regarding the Production Engineer Intern role at the London office. Though I got rejection after the second interview, it was an experience worth sharing.</description>
         
-        <pubDate>Sun, 10 Nov 2013 15:48:00 +0530</pubDate>
-        <link>http://localhost:4000/2013/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/welcome-to-jekyll/</guid>
+        <pubDate>Sun, 03 Nov 2019 05:30:00 +0530</pubDate>
+        <link>https://tanishqjasoria.github.io/2019/facebook-production-engineer-intern-process/</link>
+        <guid isPermaLink="true">https://tanishqjasoria.github.io/2019/facebook-production-engineer-intern-process/</guid>
       </item>
     
   </channel>

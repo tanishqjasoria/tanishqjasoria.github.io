@@ -10,7 +10,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .hidden { display: none; }
 
-/* Icons */
+/*
 @font-face {
 	font-family: 'icons';
 		src: url('../fonts/icons.eot');
@@ -41,6 +41,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .icon-facebook-circled:before { content: '\e805'; }
 .icon-twitter-circled:before { content: '\e806'; }
 .icon-facebook-rect:before { content: '\e803'; }
+*/
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
@@ -71,7 +72,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -139,13 +140,13 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -182,13 +183,16 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
+ul 	{ margin-left:30px; margin-bottom: 20px; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
-/* Line Height */
-#post-body, p { line-height:1.7; }
+ol 	{ margin-left:30px; margin-bottom: 20px; padding:5; }
+li	{ list-style-type:decimal; list-style-position:outside; } 
 
-b, strong { font-weight: 500;
+/* Line Height */
+#post-body, p { line-height:1.5; color: #333; font-size: 18px; }
+
+b, strong { font-weight: bold;
   color: #1E2025; }
 em, i { font-style: italic; }
 
@@ -198,7 +202,7 @@ em, i { font-style: italic; }
 	font-weight: 500;
 	font-size: 19px;
 	margin: 0;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .description {
@@ -233,7 +237,7 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
@@ -254,13 +258,15 @@ em, i { font-style: italic; }
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
-	max-width: 400px;
+	max-width: 700px;
 	margin-top: 2px;
 }
 
 h3, h4, h5 { color:#333; }
-
-h3 { font-size:20px; font-weight: 400; }
+.post h3{
+	margin-bottom: 7px;
+}
+h3 { font-size:20px; font-weight: 500; }
 h4 { font-size:16px; font-weight:bold; }
 h5 { font-size:15px; font-weight: bold; }
 
@@ -337,7 +343,7 @@ tr>td {
 }
 
 tr:nth-child(odd)>td {
-	background: #fcfcfc;
+	background: #ffffff;
 }
 
 thead th,th {
@@ -405,7 +411,7 @@ Post List
 	position: relative;
 	top: 1px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #bbb;
+	color: #666;
 }
 
 #post-list-footer {
@@ -439,6 +445,7 @@ Post List
 	box-shadow: inset 0 1px 0 #eee;
 	padding: 40px 0 0 0;
 	margin-top: 100px;
+	text-align: center;
 }
 
 /* Post Page */
@@ -577,7 +584,7 @@ h2.month {
 	position: relative;
 	top: 1px;
 	font: 300 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #bbb;
+	color: #666;
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
@@ -725,7 +732,7 @@ h2.month {
 	margin-bottom: 20px;
 }
 
-.research-item {
+.projects-item {
 	display: grid;
   grid-template-columns: 40% 60%;
   border-bottom: 1px solid #eee;
@@ -733,49 +740,49 @@ h2.month {
   padding-bottom: 20px;
 }
 
-.research-item .img {
+.projects-item .img {
 	padding-right: 20px;
 }
 
-.research-item .img img {
+.projects-item .img img {
 	width: 100%;
 }
 
-.research-item .info {
+.projects-item .info {
 
 }
 
-.research-item .info .authors {
+.projects-item .info .authors {
 	color: #4f6a91;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.research-item .info .conf {
+.projects-item .info .conf {
 	color: #a03535;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.research-item .info .desc {
+.projects-item .info .desc {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
-.research-item .info ul {
+.projects-item .info ul {
 	list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.research-item .info ul li {
+.projects-item .info ul li {
 	list-style-type: none;
 	float: left;
 	margin-right: 10px;
 }
 
-.research-item .info ul li a {
+.projects-item .info ul li a {
 	display: block;
   text-align: center;
   padding: 10px 25px;
@@ -787,17 +794,17 @@ h2.month {
   font-size: 12px;
 }
 
-.research-item .info ul li a:hover {
+.projects-item .info ul li a:hover {
 	background: #999;
 	color: #fff;
 }
 
-.research-item .info h1 {
+.projects-item .info h1 {
 	font-size: 25px;
 	margin-bottom: 10px;
 }
 
-.research-item .info p {
+.projects-item .info p {
 	font-size: 16px;
 }
 
