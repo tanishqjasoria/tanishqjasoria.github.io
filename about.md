@@ -4,6 +4,6 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I am a Senior Undergraduate student at the Department of Mathematics, [IIT Kharagpur](http://www.iitkgp.ac.in){:target="_blank"}, pursuing my Bachelor’s and Master’s degree in *Mathematics and Computing*.
 
-{% include footer.html %}
+My [curriculum vitae]({{ site.baseurl }}/TanishqJasoria_CV.pdf) has more information about my experiences and skills.
