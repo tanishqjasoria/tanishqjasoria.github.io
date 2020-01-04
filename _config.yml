@@ -1,23 +1,38 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Tanishq Jasoria
+description: Manners Maketh Man
+meta_description: "I am a Senior Undergraduate student at the Department 
+                   of Mathematics, IIT Kharagpur pursuing my Bachelor’s 
+                   and Master’s degree in Mathematics and Computing."
+meta_tags: "tanishq, jasoria, iit, kharagpur, systems, security, network
+            secure system development"
 
 aboutPage: true
 
 markdown: kramdown
 highlighter: rouge
 
-plugins: [jekyll-paginate]
+plugins:
+    - jekyll-sitemap
+    - jekyll-paginate
+
 paginate: 20
-domain_name: 'http://yourblog-domain.com'
+#domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
+#social-icons
+facebook: tanishqjasoria
+twitter: jasoriatanishq
+instagram: tanishqjasoria
+linkedin: tanishqjasoria
+github: tanishqjasoria
+email: jasoriatanishq@gmail.com
+
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://tanishqjasoria.github.io'
+author:         'Tanishq Jasoria'
+authorTwitter:  'jasoriatanishq'
 
 permalink:       /:year/:title/
 
