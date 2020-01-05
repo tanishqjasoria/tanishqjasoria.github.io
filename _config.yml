@@ -17,7 +17,7 @@ plugins:
 
 paginate: 20
 domain_name: 'tanishqjasoria.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-155175818-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
