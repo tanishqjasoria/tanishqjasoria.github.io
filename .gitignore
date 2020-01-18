@@ -1,6 +1,6 @@
 .DS_Store
 _drafts
-_site
+_site/
 
 .jekyll-cache/
 .ruby-version

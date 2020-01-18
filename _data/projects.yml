@@ -1,0 +1,9 @@
+# - layout: left
+#   name: wish | <i>A UNIX like shell</i>
+#   link: 
+#   github: github.com/tanishqjasoria/wish
+#   quote:
+#   description: | # this will include new lines to allow paragraphs
+#     Developed a UNIX like shell in C with support for redirection, parallel commands, environment variables and piping.
+
+

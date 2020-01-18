@@ -5,8 +5,11 @@ meta_description: "I am a Senior Undergraduate student at the Department
                    and Master’s degree in Mathematics and Computing."
 meta_tags: "tanishq, jasoria, iit, kharagpur, systems, security, network
             secure system development"
-
+title: Senior Undergraduate, Department of Mathematics
 aboutPage: true
+about_profile_image: assets/images/avatar.png
+darkmode: false
+
 
 markdown: kramdown
 highlighter: rouge
@@ -14,6 +17,7 @@ highlighter: rouge
 plugins:
     - jekyll-sitemap
     - jekyll-paginate
+    - jekyll-seo-tag
 
 paginate: 20
 domain_name: 'tanishqjasoria.github.io'
@@ -28,6 +32,7 @@ instagram: tanishqjasoria
 linkedin: tanishqjasoria
 github: tanishqjasoria
 email: jasoriatanishq@gmail.com
+website: tanishqjasoria.github.io
 
 # Details for the RSS feed generator
 url:            'https://tanishqjasoria.github.io'
@@ -35,6 +40,11 @@ author:         'Tanishq Jasoria'
 authorTwitter:  'jasoriatanishq'
 
 permalink:       /:year/:title/
+
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 defaults:
     -

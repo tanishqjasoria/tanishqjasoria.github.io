@@ -3,8 +3,8 @@
   <channel>
     <title>Tanishq Jasoria</title>
     <description>Manners Maketh Man</description>
-    <link>https://tanishqjasoria.github.io</link>
-    <atom:link href="https://tanishqjasoria.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Facebook: Production Engineer Internship Process</title>
@@ -13,8 +13,8 @@
           <description>Recently, I had interviews with Facebook regarding the Production Engineer Intern role at the London office. Though I got rejection after the second interview, it was an experience worth sharing.</description>
         
         <pubDate>Sun, 03 Nov 2019 05:30:00 +0530</pubDate>
-        <link>https://tanishqjasoria.github.io/2019/facebook-production-engineer-intern-process/</link>
-        <guid isPermaLink="true">https://tanishqjasoria.github.io/2019/facebook-production-engineer-intern-process/</guid>
+        <link>http://localhost:4000/2019/facebook-production-engineer-intern-process/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/facebook-production-engineer-intern-process/</guid>
       </item>
     
   </channel>

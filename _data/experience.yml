@@ -1,0 +1,50 @@
+- layout: left
+  company: Secure Systems Lab,
+          New York University
+  link: https://ssl.engineering.nyu.edu/
+  job_title: Associate Research Scientist
+  dates: May 2019 - July 2019
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    Performed vulnerability assessment of Uptane by carrying out various cyber-attacks in a simulated environment
+    Prevented rollback and hardware mismatch attacks on Uptane, in case of a compromised software repository
+    Encrypted the updates, delivered using Uptane, by implementing hybrid end-to-end encryption (RSA2048 + AES128)
+    Added the support to externally sign a repository metadata in TUF using hardware security tokens (PIV/CCID) <br>
+    Areas: Python, Secure Software Development, Encryption, Public Key Infrastructure, Systems Security
+
+- layout: left
+  company: Kharagpur Robosoccer Students’ Group (KRSSG)
+  link: https://github.com/KRSSG
+  job_title: Team Head <br> Embedded and Control Systems
+  dates: Feb 2017 - Present
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    Developed the control architecture based on Finite State Machines for coordinated control of RoboCup SSL robots
+    Implemented RTOS (ChibiOS) for scheduling of various tasks performed by central control board (STM32F407)
+    Spearheaded a team of 50 students to win a Silver Medal in technical challenges round at RoboCup 2018 <br>
+    Areas: Embedded C, Verilog, Multi-Agent Coordination, Distributed Systems, Finite State Machine, Control Systems, RTOS
+
+- layout: left
+  company: Rehabilitation Robotics
+  link: https://github.com/tanishqjasoria<br>/RehabRobotics
+  job_title: Algorithm Designer and Hardware Developer
+  dates: Nov 2017 - Aug 2019
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    Developed a robotic exoskeleton to impart locomotive ability to assist the people with neurological disorders
+    Designed a wearable device to record the gait-cycle, with a latency of 1.2 seconds, using nRF and Raspberry Pi
+    Areas: Python, C++, Ad-Hoc Networks, Embedded Control Systems, Rehabilitation Robotics
+
+
+- layout: left
+  company: Aspen Bower Electric Vehicles
+  link: http://aspenbower.com/
+  job_title: Power Train Engineer
+  dates: March 2018 - April 2018
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    Implemented a control system for Switched Reluctance Motor(SRM), increasing the torque gain by 230% <br>
+    Designed and fabricated a hardware unit to read the angular position of a SRM using axial mount magnetic encoders
+    Areas: Embedded C, ARM Architecture Switched Reluctance Motor, Optimal Control, Direct Torque Control
+
+
