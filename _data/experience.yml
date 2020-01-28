@@ -32,7 +32,7 @@
   quote:
   description: | # this will include new lines to allow paragraphs
     Developed a robotic exoskeleton to impart locomotive ability to assist the people with neurological disorders
-    Designed a wearable device to record the gait-cycle, with a latency of 1.2 seconds, using nRF and Raspberry Pi
+    Designed a wearable device to record the gait-cycle, with a latency of 1.2 seconds, using nRF and Raspberry Pi<br>
     Areas: Python, C++, Ad-Hoc Networks, Embedded Control Systems, Rehabilitation Robotics
 
 

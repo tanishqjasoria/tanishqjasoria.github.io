@@ -9,7 +9,25 @@ title: Senior Undergraduate, Department of Mathematics
 aboutPage: true
 about_profile_image: assets/images/avatar.png
 darkmode: false
+about_content: "I am an inquisitive and curious person and am always excited about 
+exploring the unknown, and this is why I have delved into seemingly 
+diverse fields. I have worked on various projects involving myself 
+in secure software development, systems security, robotics, deep 
+learning and embedded systems. I believe in the current world scenario,
+having specialization in one niche field is not as rewarding as 
+developing an appreciation and understanding for a melange of various inter-twined skills.
 
+
+My primary research interest is in the area of Systems Research, especially
+in building and analyzing secure systems. I envision my future research to 
+span across some interrelated sub-areas of networked and distributed computing 
+systems. The unifying theme of the research will be the construction of reliable 
+and secure computing platforms with a focus on data privacy, that are strong 
+enough to resist even attacks using quantum computers. Additionally, I have an 
+interest in working in the area of decentralized systems to make the role of 
+\"trusted third party\" obsolete. I believe that the invocation or assumption in a 
+security protocol design of a \"trusted third party\" controlled by a third party 
+constitutes the introduction of a security hole into that design"
 
 markdown: kramdown
 highlighter: rouge
