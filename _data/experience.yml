@@ -5,10 +5,10 @@
   dates: May 2019 - July 2019
   quote:
   description: | # this will include new lines to allow paragraphs
-    Performed vulnerability assessment of Uptane by carrying out various cyber-attacks in a simulated environment
-    Prevented rollback and hardware mismatch attacks on Uptane, in case of a compromised software repository
-    Encrypted the updates, delivered using Uptane, by implementing hybrid end-to-end encryption (RSA2048 + AES128)
-    Added the support to externally sign a repository metadata in TUF using hardware security tokens (PIV/CCID)
+    * Performed vulnerability assessment of Uptane by carrying out various cyber-attacks in a simulated environment
+    * Prevented rollback and hardware mismatch attacks on Uptane, in case of a compromised software repository
+    * Encrypted the updates, delivered using Uptane, by implementing hybrid end-to-end encryption (RSA2048 + AES128)
+    * Added the support to externally sign a repository metadata in TUF using hardware security tokens (PIV/CCID)
 
     *Areas: Python, Secure Software Development, Encryption, Public Key Infrastructure, Systems Security*
 
